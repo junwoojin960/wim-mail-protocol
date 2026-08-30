@@ -1,6 +1,6 @@
 # 루틴 프롬프트 (ROUTINE_PROMPT.md)
 
-아래 텍스트가 claude.ai 클라우드 루틴 "WIM 대표 메일 브리핑"에 그대로 들어간다. 프롬프트를 바꾸면 루틴도 같이 업데이트해야 한다(https://claude.ai/code/routines).
+아래 텍스트가 claude.ai 클라우드 루틴 "WIM 대표 메일 브리핑 (매일 08:00 KST)"에 그대로 들어간다. 루틴 ID `trig_01Pr8dMEcypQSLbnv9eBxyrF`, 모델 claude-opus-5, cron `0 23 * * *`(UTC)=매일 08:00 KST, 저장소 소스=이 저장소(공개), 커넥터=Gmail. 관리: https://claude.ai/code/routines/trig_01Pr8dMEcypQSLbnv9eBxyrF 프롬프트를 바꾸면 루틴도 같이 업데이트해야 한다(https://claude.ai/code/routines).
 
 ---
 

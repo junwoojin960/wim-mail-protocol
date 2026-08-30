@@ -4,7 +4,9 @@
 
 - 규칙 정본: [`PROTOCOL.md`](PROTOCOL.md) — 남길 것 5유형, 거를 것, 회신 3단계, 브리핑 형식
 - 회신 템플릿: [`templates/replies.md`](templates/replies.md)
-- 실행 프롬프트: [`ROUTINE_PROMPT.md`](ROUTINE_PROMPT.md) — claude.ai 클라우드 루틴이 매일 08:00 KST에 실행
+- 실행 프롬프트: [`ROUTINE_PROMPT.md`](ROUTINE_PROMPT.md) — claude.ai 클라우드 루틴 `trig_01Pr8dMEcypQSLbnv9eBxyrF`이 매일 08:00 KST에 실행 (https://claude.ai/code/routines/trig_01Pr8dMEcypQSLbnv9eBxyrF)
+
+> 저장소는 공개 상태다. 클라우드 루틴이 비공개 저장소를 읽으려면 claude.ai에 GitHub 앱을 연결해야 한다. 그래서 비밀·개인정보는 이 저장소에 두지 않는다.
 
 ## 동작
 
