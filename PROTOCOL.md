@@ -1,4 +1,4 @@
-# WIM 대표 메일 프로토콜 (PROTOCOL.md) v0.1
+# WIM 대표 메일 프로토콜 (PROTOCOL.md) v0.3
 
 > 이 파일이 규칙의 정본이다. 매일 아침 클로드 루틴이 이 파일을 읽고 그대로 실행한다.
 > 규칙을 바꾸려면 이 파일을 고치고 커밋하면 된다. 다음 실행부터 반영된다.
@@ -14,7 +14,7 @@ lookback_hours: 26                     # 매 실행마다 최근 26시간 수신
 max_auto_replies_per_run: 10           # auto 모드 안전장치. 초과분은 임시보관
 digest_channel: gmail                  # gmail | gmail+chat. chat은 루틴 프롬프트에 웹훅이 있을 때만
 language: ko
-quote_owner_cc: ""                     # 견적 문의 접수 회신 시 참조 1명. 비어 있으면 참조 없음. (대표가 확정 후 기입. 후보: black@wimcorp.co.kr 미확인)
+quote_owner_cc: black@wimcorp.co.kr    # 견적 문의 접수 회신 시 참조 1명 (김영호. 대표 확정 2026-08-30)
 ```
 
 ## 1. 목적
@@ -49,8 +49,9 @@ quote_owner_cc: ""                     # 견적 문의 접수 회신 시 참조 
 
 ## 4. 회신 정책 — 3단계
 
-### Tier 1: 자동 회신 가능 (send_mode=auto면 발송, draft면 임시보관)
+### Tier 1: 자동 회신 후보 (send_mode=auto면 발송, draft면 임시보관)
 내용이 정형이고, 약속·금액·의사결정이 들어가지 않는 것만.
+**대표 결정 2026-08-30: 아직 자동으로 나가야 하는 회신은 없다.** 따라서 `send_mode`는 `draft`로 두고 Tier 1도 초안만 만든다. 아래 표는 나중에 auto로 바꿀 때의 후보 목록이다.
 
 | 상황 | 템플릿 | 조건 |
 |---|---|---|
